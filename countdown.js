@@ -1,6 +1,6 @@
 const countdown = () => {
   // Specify the date and time we are counting down to.
-  const countDate = new Date("Jun 7, 2022 00:00:00").getTime();
+  const countDate = new Date("Jun 5, 2022 00:00:00").getTime();
   const now = new Date().getTime();
   const remainingTime = countDate - now;
 
@@ -28,7 +28,7 @@ const countdown = () => {
       return false;
     }
     else if(textDay<0 || textHour<0 || textMinute<0 || textSecond<0){
-      location.assign("index.html");
+      location.assign("hbd.html");
       
     }
   }
