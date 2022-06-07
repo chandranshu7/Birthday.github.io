@@ -289,7 +289,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/BBE2zDyQ9cg/?controls=1&loop=1&autoplay=1");
+  ifrm.setAttribute("src", "https://www.youtube.com/embed/BBE2zDyQ9cg/?controls=1");
   
   
   ifrm.style.border = 'none';
